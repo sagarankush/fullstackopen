@@ -20,7 +20,7 @@ const App = () => {
     const copy = [...votes]
     copy[selected]++
     setVotes(copy)
-    console.log(copy)
+    // console.log(copy)
   }
 
   const mostvoted = () => {
